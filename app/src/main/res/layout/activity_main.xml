@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding = "16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.yohgmail.linwei.myapplist.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Nanodegree Apps"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#2E3D49"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Btn_PopularMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#2E3D49"
+            android:textColor="@android:color/white"
+            android:onClick="Click_AppBtn"
+            android:text="POPULAR MOVIES" />
+
+        <Button
+            android:id="@+id/Btn_StockHawk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#2E3D49"
+            android:textColor="@android:color/white"
+            android:onClick="Click_AppBtn"
+            android:text="STOCK HAWK" />
+
+        <Button
+            android:id="@+id/Btn_BuildItBigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#2E3D49"
+            android:textColor="@android:color/white"
+            android:onClick="Click_AppBtn"
+            android:text="BUILD IT BIGGER" />
+
+        <Button
+            android:id="@+id/Btn_MakeMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#2E3D49"
+            android:textColor="@android:color/white"
+            android:onClick="Click_AppBtn"
+            android:text="MAKE YOUR APP MATERIAL" />
+
+        <Button
+            android:id="@+id/Btn_GoUbiquition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#2E3D49"
+            android:textColor="@android:color/white"
+            android:onClick="Click_AppBtn"
+            android:text="GO UBIQUITOUS" />
+
+        <Button
+            android:id="@+id/Btn_Capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2E3D49"
+            android:textColor="@android:color/white"
+            android:onClick="Click_AppBtn"
+            android:text="CAPSTONE" />
+    </LinearLayout>
+</LinearLayout>
